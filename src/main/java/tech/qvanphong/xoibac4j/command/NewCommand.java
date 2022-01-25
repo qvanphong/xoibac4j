@@ -26,6 +26,6 @@ public class NewCommand implements  SlashCommand {
 
         BetUtility.isOnGame = true;
         return betService.clearBets()
-                .then(event.reply("<:soyboy2:898561790592548925> Mở bát cược mới, các con bạc đặt cược bằng lệnh `/dat`\nhttps://media.discordapp.net/attachments/932640939917332540/934361335901347860/unknown.png"));
+                .then(event.reply("<:soyboy2:898561790592548925> Mở bát cược mới, các con bạc đặt cược bằng lệnh `/dat`\n"));
     }
 }
