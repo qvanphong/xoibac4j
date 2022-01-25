@@ -1,0 +1,44 @@
+{
+  "name": "dat",
+  "description": "Đặt cược",
+  "options": [
+    {
+      "name": "bet",
+      "description": "Chọn linh vật cược",
+      "type": 3,
+      "required": true,
+      "choices" : [
+        {
+          "name": "Nứa",
+          "value": "NUA"
+        },
+        {
+          "name": "Hương",
+          "value": "HUONG"
+        },
+        {
+          "name": "Pill",
+          "value": "PILL"
+        },
+        {
+          "name": "Falcao",
+          "value": "FAN_CAO"
+        },
+        {
+          "name": "Việt Mỹ",
+          "value": "VIET_MY"
+        },
+        {
+          "name": "Đức Meo",
+          "value": "DUC_MEO"
+        }
+      ]
+    },
+    {
+      "name": "amount",
+      "description": "Mức tiền cược",
+      "type": 10,
+      "required": true
+    }
+  ]
+}
